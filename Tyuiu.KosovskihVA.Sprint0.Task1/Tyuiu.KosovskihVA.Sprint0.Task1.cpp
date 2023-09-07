@@ -11,13 +11,13 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     cout << "Hello World!\n";
-    cout << "Введите ФИО: "; // У меня кароче здесь билеберду выводит вместо русского языка, а у вас вообще пусто, и пофиг вообще
+    cout << "Your FullName : "; // I have no russian language at github, i will write english
     string a;
     cin >> a;
     cout << a << endl;
     int v;
     cin >> v;
-    cout << "Возраст - " << v;
+    cout << "age - " << v;
     
     return 0;
     
