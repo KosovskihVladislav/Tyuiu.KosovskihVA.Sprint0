@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
-
+#include "../../Tyuiu.KosovskihVA.Sprint0/Tyuiu.KosovskihVA.Sprint0.Task2.V0.Lib/Tyuiu.KosovskihVA.Sprint0.Task2.V0.Lib.cpp"
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    ISprint0Task2V0* date = new Service();
+    cout << date->Add(12, 2) << endl;
+
+    ISprint0Task2V1* dota = new Service1();
+    cout << dota->Summ(12.5, 3, 6) << endl;
+
+    ISprint0Task2V2* katya = new Service2();
+    cout << katya->SummV2(12, 2, 12) << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
