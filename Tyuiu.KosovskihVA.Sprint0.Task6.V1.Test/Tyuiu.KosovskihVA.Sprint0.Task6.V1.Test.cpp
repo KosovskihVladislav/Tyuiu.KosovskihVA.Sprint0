@@ -2,6 +2,7 @@
 #include "CppUnitTest.h"
 #include "../Tyuiu.KosovskihVA.Sprint0.Task6.Lib/Tyuiu.KosovskihVA.Sprint0.Task6.Lib.cpp"
 
+
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace Task6Test1
